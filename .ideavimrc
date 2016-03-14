@@ -1,0 +1,4 @@
+set clipboard+=unnamed
+nmap ,u :action ShowUsages<CR>
+nmap ,q :action QuickJavaDoc<CR>
+nmap ,d :action ExternalJavaDoc<CR>
