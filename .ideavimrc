@@ -2,3 +2,11 @@ set clipboard+=unnamed
 nmap ,u :action ShowUsages<CR>
 nmap ,q :action QuickJavaDoc<CR>
 nmap ,d :action ExternalJavaDoc<CR>
+nnoremap ,P i<space><esc>p
+nnoremap ,p a<space><esc>p
+nnoremap <A-j> :m .+1<CR>==k
+nnoremap <A-k> :m .-2<CR>==k
+inoremap <A-j> <Esc>:m .+1<CR>==kgi
+inoremap <A-k> <Esc>:m .-2<CR>==kgi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
