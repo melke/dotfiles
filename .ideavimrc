@@ -2,6 +2,8 @@ set clipboard+=unnamed
 nmap ,u :action ShowUsages<CR>
 nmap ,q :action QuickJavaDoc<CR>
 nmap ,d :action ExternalJavaDoc<CR>
+inoremap fd <Esc>
+noremap € $ 
 nnoremap ,P i<space><esc>p
 nnoremap ,p a<space><esc>p
 nnoremap <A-j> :m .+1<CR>==k
